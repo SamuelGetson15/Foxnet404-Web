@@ -25,7 +25,7 @@ The repository is currently private. GitHub Pages availability for a private rep
 
 ## Contact form
 
-The enquiry form is a front-end demonstration and does not transmit or store submissions. Connect an email service or form backend and test it before inviting real enquiries.
+The enquiry form now includes client-side validation, a consent checkbox, a honeypot field and a Supabase REST submission flow. It is not live until you create the separate Supabase project, run the SQL schema and replace the placeholders in `supabase-config.js`.
 
 ## Before launch
 

@@ -30,7 +30,7 @@ alter table public.contact_submissions enable row level security;
 
 -- Explicitly remove any default table privileges first.
 revoke all on table public.contact_submissions from anon, authenticated;
-grant insert on table public.contact_submissions to anon;
+grant insert (name, email, service, message, privacy_acknowledged) on table public.contact_submissions to anon;
 
 drop policy if exists "Public can submit Foxnet404 contact enquiries" on public.contact_submissions;
 create policy "Public can submit Foxnet404 contact enquiries"

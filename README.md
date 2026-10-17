@@ -12,6 +12,8 @@ This is a static website built with HTML, CSS, and JavaScript. It has no build s
 
 ## Enable GitHub Pages
 
+> **Production hosting note:** GitHub's current Pages terms say Pages is not intended or allowed as free hosting for an online business or a site primarily directed at commercial activity; see [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). Because Foxnet404 is a startup lead-generation website and its form collects contact details, use GitHub as the source repository but deploy the live site on a host whose terms explicitly permit a commercial website (for example, Netlify, Vercel, or Cloudflare Pages). Do not make the contact form public on GitHub Pages as a production business site.
+
 1. Open **Settings → Pages** in this repository.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
 3. Select branch **main** and folder **/(root)**, then click **Save**.
